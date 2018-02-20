@@ -86,3 +86,28 @@ while index4 < len(name4):
     new_name = new_name + char
     index4 = index4+1
 print(new_name)
+
+
+#test4 = "my%name%is%mohsen"
+#test4.isdigit()#in tabe age reshte gable tabdil be adad dashte bashe true mibashad
+#test4.split(%)#in tabe fazaye khaliye beyne reshte ra be list haye jodagane tabdil mikonad ke dar inja gofte alamate % koja didi be list tabdil kon
+#test4.find("m")#in tabe m ra az reshte peyda karde va index marbut be un adad ro be ma mide
+#test4.upper()#hurufe kuchek ro be hurufe bozorg tabdil mikone
+#test4.lower()#hurufe bozorg ro be hurufe kuchek tabdil mikone
+
+
+#mylist=["m"]
+#mylist.append("mohsen")#in reshtaro be list albate akhare list ezafe mikone
+#mylist.remove("m")m ro az list pak mikone
+#mylist.index("mohsen")index reshtaro peyda mikone va be ma mige
+# def be python befahmunim ke az tavabe estefade mikonim
+
+
+def test6(number):
+    list = []
+    index5 = 0
+    while index5 < number:
+        if index5 % 2 == 0:
+            list.append(index5)
+        index5 = index5 + 1
+    return list
